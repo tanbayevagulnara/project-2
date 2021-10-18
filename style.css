@@ -2,11 +2,23 @@
 * {
   margin: 0;
   padding: 0;
-  border-sizing: border-box;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
+}
+
+.header__image-box {
+  width: 100%;
+  overflow: hidden;
+}
+
+.header__image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 /* History block */
@@ -43,6 +55,8 @@ body {
   padding: 10px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
+  max-width: 150px;
+  text-align: center;
   border-radius: 3px;
 }
 .history__button:hover {
@@ -85,6 +99,11 @@ body {
   .mission__image {
     margin: 0 auto;
   }
+}
+
+.container_table {
+  margin: 50px auto 0 auto;
+  max-width: 900px;
 }
 
 .line__blue {
