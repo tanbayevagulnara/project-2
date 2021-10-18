@@ -9,6 +9,19 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.header__image-box {
+  width: 100%;
+  overflow: hidden;
+}
+
+.header__image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
 /* History block */
 .block__history {
   max-width: 900px;
@@ -87,6 +100,11 @@ body {
   .mission__image {
     margin: 0 auto;
   }
+}
+
+.container_table {
+  margin: 50px auto 0 auto;
+  max-width: 900px;
 }
 
 .line__blue {
