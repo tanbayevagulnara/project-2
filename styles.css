@@ -71,7 +71,7 @@ nav ul li a {
     font-family: "Montserrat", sans-serif;
 }
 nav ul li a:hover {
-    color: rgb(63, 63, 141);
+    color: hsl(240, 38%, 40%);
 }
 .pictures {
     display: flex;
@@ -141,30 +141,21 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
-/* Style the container/contact section */
 .container m {
     width: 70%;
     height: 60%;
     justify-content: center;
     border-radius: 5px;
-    background-color: #ffffff;
+    background-color: hsla(0, 0%, 100%, 1);
     padding: 0;
     margin-top: 7%;
 }
 
-/* Create two columns that float next to eachother */
 .column {
     float: left;
     width: 50%;
     margin-top: 6px;
     padding: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 .highlights {
     display: flex;
@@ -188,15 +179,15 @@ input[type=submit]:hover {
     margin-left: 30px;
     gap: 20px;
 }
+.high2Img {
+    width: 350px;
+    height: 400px;
+}
 .cart {
     margin-left: 200px;
     width: 30px;
     height: 28px;
     cursor: pointer;
-}
-.high2Img {
-    width: 350px;
-    height: 400px;
 }
 .btn {
     width: 35px;
