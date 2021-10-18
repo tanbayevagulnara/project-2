@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 700px) {
+    .items {
+        margin: 0 auto;
+    }
+    .pictures {
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+    }
+    .pic {
+        margin-top: 20px;
+        margin-left: 30%;
+    }
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+    .highlights {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .high1 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.header {
+    height: auto;
+    display: fixed;
+    align-items: baseline;
+}
+.navbar {
+    width: 100%;
+    display: fixed;
+    align-items: center;
+    flex: 1;
+    text-align: right;
+}
+.navbar-style {
+    text-transform: uppercase;
+    box-shadow: 1px 0px 1px rgba(0, 0, 0, 1);
+}
+.icon-bar {
+    background-color: #4e3c92;
+}
+.logo {
+    width: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+}
+nav navbar-nav navbar-right {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(31, 37, 97);
+    font-weight: 50px;
+    font-size: large;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul li a:hover {
+    color: rgb(63, 63, 141);
+}
+.pictures {
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+.pic {
+    width: 35%;
+    height: 43%;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2;
+    size: auto;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    letter-spacing: -1;
+}
+.containerh3 {
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+}
+.imgWomen {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.pic2 {
+    width: 100%;
+    height: 50%
+}
+.myCarousel {
+    width: 60%;
+    justify-content: center;
+}
+.carousel-inner {
+    display: flex;
+}
+.imgCarousel {
+    width: 100%;
+    height: 100%;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container m {
+    width: 70%;
+    height: 60%;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 0;
+    margin-top: 7%;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.highlights {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+}
+.high1 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.highImg {
+    width: 350px;
+    height: 360px;
+}
+.toCart {
+    display: flex;
+    margin-left: 30px;
+    gap: 20px;
+}
+.cart {
+    margin-left: 200px;
+    width: 30px;
+    height: 28px;
+    cursor: pointer;
+}
+.high2Img {
+    width: 350px;
+    height: 400px;
+}
+.btn {
+    width: 35px;
+    height: 35px;
+    background-color: #ffffff;
+}
+span {
+    font-size: 20;
+}
+.table {
+    margin-top: 40px;
+}
+h4 {
+    margin-top: 30px;
+}
+.color {
+    padding: 0%;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.high3Img {
+    width: 350px;
+    height: 360px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.high4Img {
+    width: 350px;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.high5Img {
+    width: 320px;
+    height: 370px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.sos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.high6Img {
+    width: 300px;
+    height: 500px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
